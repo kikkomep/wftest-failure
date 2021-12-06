@@ -21,7 +21,7 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2021-12-03T15:25:30.767225",
+            "datePublished": "2021-12-06T14:19:09.191770",
             "hasPart": [
                 {
                     "@id": "fragment-based-docking-scoring.ga"
@@ -75,7 +75,7 @@
                 "@id": "#galaxy"
             },
             "url": "https://github.com/iwc-workflows/fragment-based-docking-scoring",
-            "version": "0.1"
+            "version": "0.1.1"
         },
         {
             "@id": "#galaxy",
