@@ -1,8 +1,14 @@
 name: Periodic workflow test
 on:
-  schedule:
-    - cron: "*/5 * * * *"
-  workflow_dispatch:
+#  schedule:
+#    - cron: "*/5 * * * *"
+#  workflow_dispatch:
+  push:
+    branches:
+      - "**"
+    tags:
+      - "*.*.*"
+  pull_request:
 jobs:
   # setup:
   #   name: Setup cache
@@ -26,4 +32,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: my-step
-        run: echo "Hello World!"
+        #run: echo "Hello World!"
+        run: exit -1
